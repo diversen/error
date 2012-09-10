@@ -7,7 +7,4 @@
  */
 header("HTTP/1.1 404 Not Found");
 template::setTitle(lang::translate('Error 404: Page was not found'));
-
-print '<p>' . lang::translate('Error 404: Page was not found') . '</p>';
-
-
+echo '<p>' . lang::translate('Error 404: Page was not found') . '</p>';
