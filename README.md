@@ -6,7 +6,6 @@ module. Like this
     <?php
 
     if (!session::checkAccessControl('blog_allow')){
-        moduleloader::setStatus(403);
         return;
     }
 
@@ -15,7 +14,6 @@ or
     <?php
 
     if (!session::checkAccessControl('blog_allow')){
-        moduleloader::setStatus(404);
         return;
     }
 
