@@ -1,3 +1,3 @@
 <?php
 
-echo view::get('error', '403');
+errorViews::error403();

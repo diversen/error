@@ -28,7 +28,7 @@ Then the default error module will load 403 page.
 ### 404
 
 If you want to display a not found page. Simple do something like this: 
-If you do something like this: 
+
     
     <?php
     
@@ -44,7 +44,3 @@ If you do something like this:
 
 So far there is no configuration options
 
-### Override views
-
-If you copy your error/views/* to templates/your_template/ then you override
-your view files (403.inc, 404.inc)
