@@ -44,3 +44,10 @@ If you want to display a not found page. Simple do something like this:
 
 So far there is no configuration options
 
+### template and views. 
+
+You can configure your error pages by creating a copy of `views.phtml`
+and put this into a dir named error/ in your template. Then just add your
+html. 
+
+
