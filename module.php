@@ -1,3 +1,3 @@
 <?php
 
-view::includeOverrideFunctions('error', 'views.phtml');
+view::includeOverrideFunctions('error', 'views.php');
