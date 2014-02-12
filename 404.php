@@ -1,3 +1,3 @@
 <?php
 
-errorViews::error404();
+error_views::error404();

@@ -1,6 +1,6 @@
 <?php
 
-class errorViews {
+class error_views {
    /**
     * controller file for error/display/404
     *
@@ -10,6 +10,9 @@ class errorViews {
         header("HTTP/1.1 403 Forbidden");
         template::setTitle(lang::translate('Error 403: Access Denied'));
         echo '<p>' . lang::translate('Error 403: Access Denied') . '</p>';
+        if (isset(error_module::$message)) {
+            echo '<p>' . error_module::$message . '</p>';
+        }
     }
     
     /**
@@ -23,4 +26,6 @@ class errorViews {
         template::setTitle(lang::translate('Error 404: Page was not found'));
         echo '<p>' . lang::translate('Error 404: Page was not found') . '</p>';
     }
+    
+   
 }
