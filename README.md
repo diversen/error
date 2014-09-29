@@ -60,4 +60,5 @@ views functions in a template.
 
 You can configure your error pages by creating a copy of `views.phtml`
 and put this into a dir named error/ in your template. Then just add your
-html. 
+html.
+ 
