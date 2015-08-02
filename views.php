@@ -1,8 +1,8 @@
 <?php
 
+use diversen\lang;
 use diversen\moduleloader;
 use diversen\template;
-use diversen\lang;
 
 class error_views {
    /**
